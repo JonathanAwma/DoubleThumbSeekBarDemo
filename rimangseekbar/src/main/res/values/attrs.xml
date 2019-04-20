@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RimAngSeekBar">
+        <attr name="rasb_max_value" format="integer" />
+        <attr name="rasb_min_value" format="integer" />
+        <attr name="rasb_thumb_radius" format="dimension" />
+        <attr name="rasb_selected_thumb_radius" format="dimension" />
+        <attr name="rasb_bg_line_color" format="color" />
+        <attr name="rasb_left_thumb_color" format="color" />
+        <attr name="rasb_right_thumb_color" format="color" />
+        <attr name="rasb_selected_left_thumb_color" format="color" />
+        <attr name="rasb_selected_right_thumb_color" format="color" />
+        <attr name="rasb_selection_line_color" format="color" />
+        <attr name="rasb_selection_line_press_color" format="color" />
+    </declare-styleable>
+</resources>

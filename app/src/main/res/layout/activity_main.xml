@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/values"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <com.awmtea.rimangseekbar.RimAngSeekBar
+        android:id="@+id/rimang_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:rasb_bg_line_color="@color/gray_color"
+        app:rasb_left_thumb_color="@color/colorAccent"
+        app:rasb_max_value="90"
+        app:rasb_min_value="50"
+        app:rasb_right_thumb_color="@color/colorAccent"
+        app:rasb_selected_left_thumb_color="@color/colorPrimary"
+        app:rasb_selected_right_thumb_color="@color/colorPrimary"
+        app:rasb_selected_thumb_radius="20dip"
+        app:rasb_selection_line_color="@color/colorAccent"
+        app:rasb_selection_line_press_color="@color/colorPrimary"
+        app:rasb_thumb_radius="10dip" />
+</LinearLayout>
