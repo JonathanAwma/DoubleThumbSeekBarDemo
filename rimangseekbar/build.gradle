@@ -46,11 +46,14 @@ artifacts {
     archives generateSourcesJar
 }
 
-/*bintray {
+group = 'com.awmtea.rimangseekbar'
+version = '0.0.1'
+
+bintray {
     user = "johnathanawma"
     key = "4f27a922cdb65bf5ef1c0cdb29839c77e943eca9"
     pkg {
-        repo = "maven"
+        repo = "com.awmtea.rimangseekbar"
         name = "com.awmtea.rimangseekbar"
 
         version {
@@ -61,11 +64,11 @@ artifacts {
         }
 
         licenses = ['Apache-2.0']
-        vcsUrl = 'https://github.com/hathibelagal/LibraryTutorial.git'
-        websiteUrl = 'https://github.com/hathibelagal/LibraryTutorial'
+        vcsUrl = 'https://github.com/JonathanAwma/DoubleThumbSeekBarDemo.git'
+        websiteUrl = 'https://github.com/JonathanAwma/DoubleThumbSeekBarDemo'
     }
     configurations = ['archives']
-}*/
+}
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])

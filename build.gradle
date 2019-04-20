@@ -19,9 +19,6 @@ plugins {
     id "com.jfrog.bintray" version "1.5"
 }
 
-group = 'com.awmtea.rimangseekbar'
-version = '0.1'
-
 allprojects {
     repositories {
         google()
